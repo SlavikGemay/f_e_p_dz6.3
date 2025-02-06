@@ -3,8 +3,6 @@
 const array = [1, 3, 4, 4, 6, 2, 5, 4, 7];
 function removeElement() {
 
-    const array = [1, 3, 4, 4, 6, 2, 5, 4, 7];
-
     for (let i = 0; i < array.length; i++) {
         if (array[i] === 4) {
             array.splice(i, 1);
@@ -12,14 +10,16 @@ function removeElement() {
         }
     }
 
-    console.log(array);
-    // return array;
 }
 removeElement(array, 4);
-
+console.log(array);
 
 
 
 // const array = [1, 3, 4, 4, 6, 2, 5, 4, 7];
 // removeElement(array, 4);
 // console.log(array); // Результат: [1, 3, 6, 2, 5, 7]
+
+
+// console.log(array);
+// return array;
