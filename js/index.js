@@ -1,6 +1,6 @@
 'use strict';
 
-
+const array = [1, 3, 4, 4, 6, 2, 5, 4, 7];
 function removeElement() {
 
     const array = [1, 3, 4, 4, 6, 2, 5, 4, 7];
@@ -15,7 +15,8 @@ function removeElement() {
     console.log(array);
     // return array;
 }
-removeElement();
+removeElement(array, 4);
+
 
 
 
